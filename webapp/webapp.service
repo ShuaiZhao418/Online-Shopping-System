@@ -1,0 +1,12 @@
+[Unit]
+Description = my webapp
+
+[Service]
+User = ec2-user
+WorkingDirectory = /tmp
+EnvironmentFile = /etc/environment
+ExecStart = /usr/bin/java -jar /tmp/MyWebApplication.jar
+
+
+[Install]
+WantedBy=multi-user.target
