@@ -1,0 +1,11 @@
+[Unit]
+Description=My Spring Boot Project
+After=syslog.target
+
+[Service]
+User=myuser
+ExecStart=/usr/bin/java -jar /tmp/Webapplication/target/MyWebApplication.jar
+SuccessExitStatus=143
+
+[Install] 
+WantedBy=multi-user.target
