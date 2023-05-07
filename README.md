@@ -2,7 +2,7 @@
 A web application based on Spring Boot and AWS.
 
 
-## Summary:    
+## Summary    
 - Developed a scalable and autorun online shopping platform using Spring Boot and AWS, integrated CI/CD with Github Action.
 - Automated network setup and resource creation using Cloud Formation [Terraform](https://www.terraform.io/), AWS CLI, and shell scripts. 
 - Deployed the web application to a custom AWS EC2, built on an optimized [AMI](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html) using Packer.
